@@ -51,15 +51,27 @@
                     id="navbarSupportedContent"
                 >
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-link active" role="button" onclick="switchTab( 'posts' )">
+                        <li
+                            class="nav-link active"
+                            role="button"
+                            onclick="switchTab( 'posts' )"
+                        >
                             <i class="fa-solid fa-house"></i>
                         </li>
 
-                        <li class="nav-link active" role="button" onclick="switchTab( 'liked' )">
+                        <li
+                            class="nav-link active"
+                            role="button"
+                            onclick="switchTab( 'liked' )"
+                        >
                             <i class="fa-solid fa-heart text-danger"></i>
                         </li>
 
-                        <li class="nav-link active" role="button" onclick="switchTab( 'reported' )">
+                        <li
+                            class="nav-link active"
+                            role="button"
+                            onclick="switchTab( 'reported' )"
+                        >
                             <i class="fa-solid fa-eye-slash"></i>
                         </li>
                     </ul>
@@ -67,8 +79,7 @@
             </nav>
         </header>
         <main class="main container mx-auto p-3">
-            <div id="posts">
-            </div>
+            <div id="posts"></div>
             <div id="liked">
                 <h1>Liked posts</h1>
             </div>
@@ -77,6 +88,70 @@
                 <h1>Reported posts</h1>
             </div>
         </main>
+
+        <section class="mt-5 container">
+            <div>
+                <h2>How JavaScript Works?</h2>
+                <div>
+                    <p>there has few basic steps:</p>
+                    <ul>
+                        <li>
+                            <strong>Javascript File:</strong> Where we write our
+                            raw code .
+                        </li>
+                        <li>
+                            <strong>Javascript Engine:</strong>
+                            <ol>
+                                <li>
+                                    <strong>Parser:</strong> Parse the Syntax
+                                    and find error. if get any error then stop
+                                    execution and throw error
+                                </li>
+                                <li>
+                                    <strong>Syntax Tree:</strong> in this stage
+                                    the Syntax is converted in to an tree like
+                                    operations are in a node assignment are in a
+                                    different node etc.
+                                </li>
+                                <li>
+                                    <strong>Compiled into Machine Code:</strong>
+                                    the syntax converted into a pure machine
+                                    readable code.
+                                </li>
+                                <li>
+                                    <strong>Machine Code:</strong> machine run
+                                    the code.
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h2>What does Event Loop do?</h2>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Deserunt, nam ipsum ipsa aut voluptate excepturi velit
+                        adipisci inventore autem laudantium at commodi, facere
+                        sapiente enim fuga asperiores quasi animi voluptatem!
+                    </p>
+                </div>
+            </div>
+            <div>
+                <h2>LocalStorage Vs SessionStorage</h2>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perspiciatis eius sed quaerat deleniti commodi, aperiam
+                        sit quam, quidem earum ducimus rem beatae tempore?
+                        Facilis laboriosam, soluta architecto pariatur nam
+                        magnam?
+                    </p>
+                </div>
+            </div>
+        </section>
+
         <footer></footer>
 
         <!-- add javascript  file  -->
