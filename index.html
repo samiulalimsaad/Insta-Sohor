@@ -131,11 +131,31 @@
                 <h2>What does Event Loop do?</h2>
                 <div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Deserunt, nam ipsum ipsa aut voluptate excepturi velit
-                        adipisci inventore autem laudantium at commodi, facere
-                        sapiente enim fuga asperiores quasi animi voluptatem!
+                        when we are talking about
+                        <strong>Event Loop</strong> then we should also need to
+                        talk about then event queue and asynchronous behavior of
+                        Javascript.
                     </p>
+
+                    <ol>
+                        <li>
+                            <strong>Asynchronous:</strong> As Javascript is a
+                            single threaded so the asynchronous behavior is very
+                            common.
+                        </li>
+                        <li>
+                            <strong>Event Queue:</strong> All kind of
+                            asynchronous task are enter in a queue called event
+                            Queue.
+                            <p>
+                                when an asynchronous task is complete then a
+                                process every time pass the completed task in to
+                                call stack and execute the code. the process is
+                                called Event Loop. it's check every time when
+                                the Event Queue is not empty.
+                            </p>
+                        </li>
+                    </ol>
                 </div>
             </div>
             <div>
