@@ -1,5 +1,3 @@
-# Assignment 7
+# Insta Sohor
 
-## Repo link: <https://github.com/Programming-Hero-Web-Course4/insta-shohor-samiulalimsaad>
-
-## Site link: <https://saad-ph-assignment-7.netlify.app>
+## <https://insta-sohor-samiulalimsaad.vercel.app>
